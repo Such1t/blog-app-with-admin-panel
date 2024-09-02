@@ -1,0 +1,9 @@
+1. Make sure XAMPP is correctly installed on your computer.
+
+2. Extract the downloaded file, locate your xampp folder on your computer, and paste the blog folder in the htdocs.
+
+3. Open http://localhost/phpmyadmin in your browser and create a new user 'egator' with password 'admin1234' as we did in the video tutorial on youtube. Remember to change the login credentials in the config file in your xampp folder (xampp/phpMyAdmin/config.inc.php) to the newly created user credentials, since that's what we used to connect our database in the tutorial.
+
+4. Create a database 'blog', and upload the SQL dump (blog-tables.sql) found in the extracted folder.
+
+5. The credentials of all users registered in the tutorial can be found in the zip file (registered-user-credentials.txt). Use any to log in to the application, and have fun!
